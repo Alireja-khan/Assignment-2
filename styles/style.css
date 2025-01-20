@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared-Styles */
+
+
+
+/* Nav-Styles */
+.nav-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    margin: 20px 140px;
+}
+.nav-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.nav-img{
+    width: 62px;
+    height: 62px;
+}
+.nav-title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #111111;
+}
+.nav-ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.nav-ul a{
+    text-decoration: none;
+}
+.nav-home{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FEA301;
+}
+.nav-about{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #01ACFD;
+}
+.nav-facilities{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #05D4DF;
+}
+.nav-admission{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #5D58EF;
+}
+.nav-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+}
+/* for responsive added alternate nav bar */
+body{
+    margin: 0;
+}
+.nav-name-2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.5px solid;
+    padding: 12px 16px;
+    color: #FEA301;
+}
+.nav-img{
+    width: 46px;
+    height: 46px;
+    margin-left: 16px;
+}
+.nav-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+
+
+
+/* media query for i-phone 14 */
+@media screen and (max-width:390px) {
+    .nav-sec{
+        display: none;
+    } 
+}
+@media screen and (min-width:390px) {
+    .nav-name-2{
+        display: none;
+    }
+}
