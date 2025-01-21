@@ -276,10 +276,13 @@ body{
 .story-card{
     background-color: #FFFFFF;
     border: none;
+    border-radius: 16px 16px;
     max-width: 290.69px;
     max-height: 301.61px;
-    border-radius: 16px;
-
+}
+.card-img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 .card-heading{
     font-size: 0.958rem;
@@ -424,12 +427,10 @@ body{
     }
     .hero-1{
         display: none;
-
-    
-    
-    
-        /* Curriculum-responsive */
     }
+    
+
+        /* Curriculum-responsive */
     .curriculum-items{
         grid-template-columns: repeat(1, 1fr);
         margin-left: 16.5px;
@@ -458,6 +459,35 @@ body{
 
 
     /* Stories-styles */
+    .sec-title{
+        
+    }
+    .card-1{
+        display: none;
+    }
+    .story-cards{
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 358px;
+    }
+    .story-card{
+        max-width: 173.09px;
+        max-height: 179.59px;
+    }
+    .card-heading{
+        font-size: 0.570rem;
+        margin-bottom: 17.12px;
+        margin-right: 23.1px;
+        margin-left: 22.57px;
+    }
+    .date{
+        padding: 5.71px 11.24px 6.28x 11.42px;
+    font-size: 0.570rem;
+        max-width: 103.91px;
+    max-height: 22.83px;
+    margin-top: -20px;
+    margin-left: 22.83px;
+    margin-bottom: 11.42px;
+    }
 
 }
 
