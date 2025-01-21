@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+}
 .quicksand-font{
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
@@ -107,7 +114,7 @@
     "banner-text    banner-img"
     ;
     gap: 50px;
-    width: 1158.61px;
+    max-width: 1158.61px;
     margin: 0 auto;
 }
 .banner-text{
@@ -118,6 +125,7 @@
 .banner-title{
     font-size: 3.5rem;
     font-weight: bold;
+    margin-bottom: 24px;
 }
 #Empowering{
     color: #FEA301;
@@ -128,6 +136,8 @@
 .banner-description{
     font-size: 1.25rem;
     color: #111111;
+    margin-bottom: 24px;
+
 }
 .banner-btn{
     font-size: 1.25rem;
@@ -142,6 +152,103 @@
     width: 468.61;
     height: 575px;
 }
+
+main{
+    
+}
+/* Curriculum-Styles */
+.curriculum-sec{
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+.sec-title{
+    font-size: 2.875rem;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.curriculum-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28.29px;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.curriculum-item{
+    border: 0.94px solid;
+    border-radius: 18.86px;
+    text-align: center;
+    padding: 52.82px 40.67px 53.76px 40.88px;
+}
+.cu-img{
+    margin-bottom: 32.7px;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+    margin-bottom: 33.48px;
+}
+.description{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+    margin-bottom: 33.95px;
+}
+.link-1{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #64C8FF;
+}
+.link-2{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F0AA00;
+}
+.link-3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #8700FF;
+}
+.curriculum-item a{
+    text-decoration: none;
+}
+#c-item-1{
+    border-color: #DEF5FF;
+    background-image: linear-gradient(#DEF5FF 0%, #FFFFFF 40%)
+}
+#c-item-2{
+    border-color: #FFF4DC;
+    background-image: linear-gradient(#FFF4DC 0%, #FFFFFF 40%)
+}
+#c-item-3{
+    border-color: #F2E8FF;
+    background-image: linear-gradient(#EEE1FF 0%, #FFFFFF 40%)
+}
+.cu-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.arrow-btn{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 17px 25px;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border: none;
+    border-radius: 50%;
+}
+
+
+
 
 
 /* media query for i-phone 14 */
@@ -161,6 +268,7 @@
         ;
         gap: 20px;
         margin: 0px 0px;
+        display: none;
     }
     .banner-img{
         padding-top: 20px;
@@ -175,6 +283,33 @@
     }
     .hero-1{
         display: none;
+
+        /* Curriculum-responsive */
+    }
+    .curriculum-items{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 16.5px;
+        margin-right: 16.5px;
+    }
+    .sec-title{
+        font-size: 1.625rem;
+        margin-bottom: 20px;
+    }
+    .cu-btn{
+        display: none;
+    }
+    .title{
+        font-size: 1rem;
+    }
+    .description{
+        font-size: 0.638rem;
+    }
+    .cu-img{
+        max-width: 88.49px;
+        max-height: 75.79px;
+    }
+    .link-1{
+        font-size: 0.638rem;
     }
 }
 
