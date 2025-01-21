@@ -19,6 +19,8 @@ body{
     display: none;
 }
 
+
+
 /* Nav-Styles */
 .nav-sec{
     display: flex;
@@ -81,6 +83,8 @@ body{
     border: none;
     border-radius: 12px;
 }
+
+
 /* for responsive added alternate nav bar */
 .nav-name-2{
     display: flex;
@@ -100,6 +104,7 @@ body{
     height: 30px;
     margin-right: 16px;
 }
+
 
 /* Banner-sec-styles */
 .banner-text{
@@ -153,9 +158,7 @@ body{
     height: 575px;
 }
 
-main{
-    
-}
+
 /* Curriculum-Styles */
 .curriculum-sec{
     background-image: url(../assets/bg.png);
@@ -163,7 +166,6 @@ main{
     background-size: contain;
     background-position: top;
     width: 100%;
-    height: 100vh;
 }
 .sec-title{
     font-size: 2.875rem;
@@ -252,6 +254,140 @@ main{
 
 
 
+/* Stories-Styles */
+
+.story-sec{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: linear-gradient(#FFFFFF 0%, #FFEDCE 50%)   
+}
+.bg{
+    background-image: url(../assets/bg.png);
+}
+.story-cards{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 18.73px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.story-card{
+    background-color: #FFFFFF;
+    border: none;
+    max-width: 290.69px;
+    max-height: 301.61px;
+    border-radius: 16px;
+
+}
+.card-heading{
+    font-size: 0.958rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 33.55px;
+    margin-right: 38.35px;
+    margin-left: 37.91px;
+    margin-right: 54.75px;
+}
+.container-2{
+    display: flex;
+    flex-direction: column;
+}
+.container-3{
+    display: flex;
+    flex-direction: column;
+}
+.container-4{
+    display: flex;
+    flex-direction: column;
+}
+.container-5{
+    display: flex;
+    flex-direction: column;
+}
+.card-1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: none;
+    max-width: 540.27px;
+    max-height: 630.52px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.story-img{
+    margin: 0;
+}
+.story-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 47.93px;
+    margin-right: 38.35px;
+    margin-left: 38.35px;
+}
+.story-description{
+    font-size: 0.958rem;
+    font-weight: 500;
+    color: #666666;
+    max-width: 433.06px;
+    max-height: 75.74px;
+    margin-left: 38.55px;
+}
+
+/* challenge-button */
+.color-1{
+    background-color: #F0AA00;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: -30px;
+    max-width: 174.51px;
+    max-height: 47.93px;
+    margin-left: 38.35px;
+    margin-bottom: 33.55px;
+}
+.date{
+    background-color: #F0AA00;
+    padding: 14.38px 18.88px 14.38px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    max-width: 174.51px;
+    max-height: 38.35px;
+    margin-top: -20px;
+    margin-left: 38.35px;
+    margin-bottom: 25px;
+}
+
+.color-2{
+    background-color: #01ACFD;
+}
+.color-3{
+    background-color: #3CD8E8;
+}
+.color-4{
+    background-color: #8700FF;
+}
+.color-5{
+    background-color: #95B226;
+}
+.card-heading{
+    font-size: 0.958rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+
+
 
 /* media query for i-phone 14 */
 @media screen and (max-width:390px) {
@@ -262,6 +398,9 @@ main{
     body{
         margin: 0;
     }
+    
+    
+    /* banner-styles */
     .banner-sec{
         display:grid;
         grid-template-areas: 
@@ -286,6 +425,9 @@ main{
     .hero-1{
         display: none;
 
+    
+    
+    
         /* Curriculum-responsive */
     }
     .curriculum-items{
@@ -313,6 +455,10 @@ main{
     .link-1{
         font-size: 0.638rem;
     }
+
+
+    /* Stories-styles */
+
 }
 
 
