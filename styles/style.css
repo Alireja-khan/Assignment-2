@@ -8,8 +8,9 @@
 }
 
 /* Shared-Styles */
-
-
+.hide{
+    display: none;
+}
 
 /* Nav-Styles */
 .nav-sec{
@@ -74,12 +75,8 @@
     border-radius: 12px;
 }
 /* for responsive added alternate nav bar */
-body{
-    margin: 0;
-}
 .nav-name-2{
     display: flex;
-    justify-content: center;
     justify-content: space-between;
     align-items: center;
     border: 0.5px solid;
@@ -97,17 +94,97 @@ body{
     margin-right: 16px;
 }
 
-
+/* Banner-sec-styles */
+.banner-text{
+    grid-area: banner-text;
+}
+.banner-img{
+    grid-area: banner-img;
+}
+.banner-sec{
+    display:grid;
+    grid-template-areas: 
+    "banner-text    banner-img"
+    ;
+    gap: 50px;
+    width: 1158.61px;
+    margin: 0 auto;
+}
+.banner-text{
+    width: 640px;
+    height: 331px;
+    padding: 112px 0;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#Empowering{
+    color: #FEA301;
+}
+#towards{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    color: #111111;
+}
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 47px;
+    background-color: #111111;
+    border: none;
+    border-radius: 12px;
+}
+.banner-img{
+    width: 468.61;
+    height: 575px;
+}
 
 
 /* media query for i-phone 14 */
 @media screen and (max-width:390px) {
     .nav-sec{
         display: none;
-    } 
+    }
+    
+    body{
+        margin: 0;
+    }
+    .banner-sec{
+        display:grid;
+        grid-template-areas: 
+        "banner-img"
+        "banner-text"
+        ;
+        gap: 20px;
+        margin: 0px 0px;
+    }
+    .banner-img{
+        padding-top: 20px;
+        padding-left: 10.21px;
+        padding-right: 10.21px;
+    }
+    .banner-text{
+        text-align: center;
+        width: 357px;
+        height: 252px;
+        padding: 0;
+    }
+    .hero-1{
+        display: none;
+    }
 }
+
+
+
 @media screen and (min-width:390px) {
     .nav-name-2{
+        display: none;
+    }
+    .hero-2{
         display: none;
     }
 }
