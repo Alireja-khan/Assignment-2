@@ -311,7 +311,7 @@ body{
 }
 .card-1{
     grid-row-start: 1;
-    grid-row-end: 4;
+    grid-row-end: 3;
     border: none;
     max-width: 540.27px;
     max-height: 630.52px;
@@ -324,6 +324,8 @@ body{
 }
 .story-img{
     margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 .story-title{
     font-size: 1.5rem;
@@ -387,6 +389,104 @@ body{
     font-weight: bold;
     color: #000000;
 }
+.story-btn{
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #111111;
+    padding: 10px 60.5px;
+    border: none;
+    border-radius: 12px;
+    max-width: 197px;
+    max-height: 50px;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-left: -80px;
+}
+.story-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Footer-style */
+.footer{
+    max-width: 1439px;
+    max-height: 519px;
+    background-color: #01ACFD;
+    margin: 0 auto;
+}
+.footer-sec{
+    display: flex;
+
+}
+.footer-left div{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 123px;
+    margin-bottom: 35.35px;
+}
+.foot-left-title{
+    font-size: 2.633rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    max-width: 206.11px;
+}
+.foot-left-img{
+    max-width: 82.9px;
+    max-height: 81.65px;
+    margin-right: 10.7px;
+}
+.foot-description{
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    max-width: 399.02px;
+    margin-left: 147px;
+    margin-bottom: 179px;
+}
+
+.footer-mid{
+    margin-top: 123px;
+    margin-left: 172px;
+}
+.foot-mid-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.foot-mid-ul{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+.foot-mid-ul li{
+    margin-bottom: 20px;
+}
+
+.footer-right{
+    margin-top: 127px;
+    margin-left: 143px;
+}
+.foot-right-title{
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.foot-img-container img{
+    margin-right: 10.15px;
+}
+
 
 
 
@@ -460,7 +560,7 @@ body{
 
     /* Stories-styles */
     .sec-title{
-        
+
     }
     .card-1{
         display: none;
@@ -488,7 +588,52 @@ body{
     margin-left: 22.83px;
     margin-bottom: 11.42px;
     }
+    .story-btn{
+        font-size: 1rem;
+        padding: 0 37px;
+        margin-left: 80px;
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .footer{
+        max-width: 390px;
+        max-height: 100%;
+        /* max-height: 642px; */
+    }
+    .footer-sec{
+        flex-direction: column;
+    }
+    .foot-left-title{
+        font-size: 2.233rem;
+    }
+    .footer-left div{
+        margin-top: 65PX;
+        margin-left: 16PX;
+        margin-bottom: 22.77px;
+    }
+    .foot-description{
+        max-width: 357PX;
+        margin-left: 21px;
+        margin-bottom: 0;
+        font-size: 1rem;
+    }
+    .footer-mid{
+        margin-top: 32px;
+        margin-left: 20px;
+    }
+    .foot-mid-title{
+        font-size: 1.271rem;
+        margin-bottom: 27.57px;
+    }
+    .footer-right{
+        margin-top: 31.98px;
+        margin-left: 21px;
+    }
+    .foot-right-title{
+        margin-bottom: 36.96px;
+        font-size: 1.4rem;
+    }
 }
 
 
