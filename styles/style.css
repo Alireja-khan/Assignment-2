@@ -247,7 +247,6 @@ body{
 
 
 /* Stories-Styles */
-
 .story-sec{
     max-width: 1440px;
     margin: 0 auto;
@@ -256,88 +255,58 @@ body{
 .bg{
     background-image: url(../assets/bg.png);
 }
-.story-cards{
-    display: grid;
+
+.story-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
     justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 18.73px;
-    margin-left: 140px;
-    margin-right: 140px;
+    align-items: center;
+    justify-content: space-between;
+
+    
 }
-.story-card{
-    background-color: #FFFFFF;
-    border: none;
-    border-radius: 16px 16px;
-    max-width: 290.69px;
-    max-height: 301.61px;
+
+.story-part-2{
+    max-width: 601px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19.17px;
 }
-.card-img{
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
-}
-.card-heading{
-    font-size: 0.958rem;
-    font-weight: bold;
-    color: #000000;
-    margin-bottom: 33.55px;
-    margin-right: 38.35px;
-    margin-left: 37.91px;
-    margin-right: 54.75px;
-}
-.container-2{
-    display: flex;
-    flex-direction: column;
-}
-.container-3{
-    display: flex;
-    flex-direction: column;
-}
-.container-4{
-    display: flex;
-    flex-direction: column;
-}
-.container-5{
-    display: flex;
-    flex-direction: column;
-}
-.card-1{
-    grid-row-start: 1;
-    grid-row-end: 3;
-    border: none;
-    max-width: 540.27px;
-    max-height: 630.52px;
-    border-radius: 16px;
-    background-color: #FFFFFF;
-}
+
+
+
+/* card-1-styles */
 .container{
     display: flex;
     flex-direction: column;
 }
-.story-img{
-    margin: 0;
-    border-top-left-radius: 16px;
-    border-top-right-radius: 16px;
+.card-1{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px 16px;
+    max-width: 540.27px;
+    max-height: 630.52px;
 }
 .story-title{
     font-size: 1.5rem;
     font-weight: bold;
     color: #000000;
-    margin-bottom: 47.93px;
-    margin-right: 38.35px;
-    margin-left: 38.35px;
+    padding-bottom: 47.93px;
+    /* margin-right: 38.35px; */
+    padding-left: 38.35px;
 }
 .story-description{
     font-size: 0.958rem;
     font-weight: 500;
     color: #666666;
-    max-width: 433.06px;
-    max-height: 75.74px;
-    margin-left: 38.55px;
+    /* max-width: 433.06px;
+    max-height: 75.74px; */
+    padding-left: 38.55px;
+    padding-bottom: 64.52px;
+    padding-right: 68.86px;
 }
-
-/* challenge-button */
-.color-1{
+.btn-1{
     background-color: #F0AA00;
     padding: 14.38px 18.88px 15.34px 19.17px;
     font-size: 0.958rem;
@@ -350,37 +319,153 @@ body{
     margin-left: 38.35px;
     margin-bottom: 33.55px;
 }
-.date{
-    background-color: #F0AA00;
-    padding: 14.38px 18.88px 14.38px 19.17px;
-    font-size: 0.958rem;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 47.93px;
-    max-width: 174.51px;
-    max-height: 38.35px;
-    margin-top: -20px;
-    margin-left: 38.35px;
-    margin-bottom: 25px;
+.story-img{
+    margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
 }
 
-.color-2{
-    background-color: #01ACFD;
-}
-.color-3{
-    background-color: #3CD8E8;
-}
-.color-4{
-    background-color: #8700FF;
-}
-.color-5{
-    background-color: #95B226;
+/* card-2-styles */
+.card-2{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px 16px;
+    max-width: 290.69px;
+    max-height: 301.61px;
 }
 .card-heading{
     font-size: 0.958rem;
     font-weight: bold;
     color: #000000;
+    padding-bottom: 47.93px;
+    /* margin-right: 38.35px; */
+    padding-left: 38.35px;
 }
+.color-1{
+    background-color: #95B226;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: -30px;
+    max-width: 174.51px;
+    max-height: 47.93px;
+    margin-left: 38.35px;
+    margin-bottom: 33.55px;
+}
+.card-img{
+    margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/* card-3-styles */
+.card-3{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px 16px;
+    max-width: 290.69px;
+    max-height: 301.61px;
+}
+.card-heading{
+    font-size: 0.958rem;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 47.93px;
+    /* margin-right: 38.35px; */
+    padding-left: 38.35px;
+}
+.color-2{
+    background-color: #5D58F0;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: -30px;
+    max-width: 174.51px;
+    max-height: 47.93px;
+    margin-left: 38.35px;
+    margin-bottom: 33.55px;
+}
+.card-img{
+    margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/* card-4-styles */
+.card-4{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px 16px;
+    max-width: 290.69px;
+    max-height: 301.61px;
+}
+.card-heading{
+    font-size: 0.958rem;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 47.93px;
+    /* margin-right: 38.35px; */
+    padding-left: 38.35px;
+}
+.color-3{
+    background-color: #95B226;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: -30px;
+    max-width: 174.51px;
+    max-height: 47.93px;
+    margin-left: 38.35px;
+    margin-bottom: 33.55px;
+}
+.card-img{
+    margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/* card-5-styles */
+.card-5{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px 16px;
+    max-width: 290.69px;
+    max-height: 301.61px;
+}
+.card-heading{
+    font-size: 0.958rem;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 47.93px;
+    /* margin-right: 38.35px; */
+    padding-left: 38.35px;
+}
+.color-4{
+    background-color: #95B226;
+    padding: 14.38px 18.88px 15.34px 19.17px;
+    font-size: 0.958rem;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 47.93px;
+    margin-top: -30px;
+    max-width: 174.51px;
+    max-height: 47.93px;
+    margin-left: 38.35px;
+    margin-bottom: 33.55px;
+}
+.card-img{
+    margin: 0;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+/* story-button-styles */
 .story-btn{
     font-size: 1.25rem;
     font-weight: 600;
@@ -400,12 +485,8 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 0;
-    margin-bottom: 50px;
 }
-.flex{
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 /* Footer-style */
@@ -568,27 +649,78 @@ body{
 
 
     /* Stories-styles */
-    .sec-title{
-
+    .story-part-2{
+        max-width: 358px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 16px;
     }
-    .card-1{
+    .story-part-1{
         display: none;
     }
-    .story-cards{
-        grid-template-columns: repeat(2, 1fr);
-        max-width: 358px;
+
+    .card-2{
+        max-width: 173.09px;
+        max-height: 179.59px;
     }
-    .story-card{
+    .card-3{
+        max-width: 173.09px;
+        max-height: 179.59px;
+    }
+    .card-4{
+        max-width: 173.09px;
+        max-height: 179.59px;
+    }
+    .card-5{
         max-width: 173.09px;
         max-height: 179.59px;
     }
     .card-heading{
         font-size: 0.570rem;
-        margin-bottom: 17.12px;
+        padding: 0;
+        padding-left: 22.57px;
+        padding-bottom: 19.98px;
+        /* margin-bottom: 17.12px;
         margin-right: 23.1px;
-        margin-left: 22.57px;
+        margin-left: 22.57px; */
     }
-    .date{
+    .color-1{
+        padding: 5.71px 11.24px 6.28x 11.42px;
+    font-size: 0.570rem;
+        max-width: 103.91px;
+    max-height: 22.83px;
+    margin-top: -20px;
+    margin-left: 22.83px;
+    margin-bottom: 11.42px;
+    }
+    .color-2{
+        padding: 5.71px 11.24px 6.28x 11.42px;
+    font-size: 0.570rem;
+        max-width: 103.91px;
+    max-height: 22.83px;
+    margin-top: -20px;
+    margin-left: 22.83px;
+    margin-bottom: 11.42px;
+    }
+    .color-3{
+        padding: 5.71px 11.24px 6.28x 11.42px;
+    font-size: 0.570rem;
+        max-width: 103.91px;
+    max-height: 22.83px;
+    margin-top: -20px;
+    margin-left: 22.83px;
+    margin-bottom: 11.42px;
+    }
+    .color-4{
+        padding: 5.71px 11.24px 6.28x 11.42px;
+    font-size: 0.570rem;
+        max-width: 103.91px;
+    max-height: 22.83px;
+    margin-top: -20px;
+    margin-left: 22.83px;
+    margin-bottom: 11.42px;
+    }
+    .color-5{
         padding: 5.71px 11.24px 6.28x 11.42px;
     font-size: 0.570rem;
         max-width: 103.91px;
