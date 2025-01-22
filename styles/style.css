@@ -19,8 +19,6 @@ body{
     display: none;
 }
 
-
-
 /* Nav-Styles */
 .nav-sec{
     display: flex;
@@ -105,57 +103,35 @@ body{
     margin-right: 16px;
 }
 
-
 /* Banner-sec-styles */
-.banner-text{
-    grid-area: banner-text;
-}
-.banner-img{
-    grid-area: banner-img;
-}
-.banner-sec{
-    display:grid;
-    grid-template-areas: 
-    "banner-text    banner-img"
-    ;
-    gap: 50px;
-    max-width: 1158.61px;
-    margin: 0 auto;
-}
-.banner-text{
-    width: 640px;
-    height: 331px;
-    padding: 112px 0;
-}
+
+/* banner-title-style */
 .banner-title{
     font-size: 3.5rem;
     font-weight: bold;
     margin-bottom: 24px;
 }
-#Empowering{
+#orange-text{
     color: #FEA301;
 }
-#towards{
+#blue-text{
     color: #01ACFD;
 }
+/* banner-description-style */
 .banner-description{
     font-size: 1.25rem;
     color: #111111;
     margin-bottom: 24px;
-
 }
 .banner-btn{
     font-size: 1.25rem;
-    font-weight: bold;
     color: #FFFFFF;
-    padding: 10px 47px;
     background-color: #111111;
     border: none;
     border-radius: 12px;
+    padding: 10px 47px;
 }
-.banner-img{
-    width: 468.61;
-    height: 575px;
+.banner-img{    
 }
 
 
@@ -503,31 +479,31 @@ body{
     }
     
     
-    /* banner-styles */
-    .banner-sec{
-        display:grid;
-        grid-template-areas: 
-        "banner-img"
-        "banner-text"
-        ;
-        gap: 20px;
-        margin: 0px 0px;
-        display: none;
-    }
-    .banner-img{
-        padding-top: 20px;
-        padding-left: 10.21px;
-        padding-right: 10.21px;
-    }
-    .banner-text{
-        text-align: center;
-        width: 357px;
-        height: 252px;
-        padding: 0;
-    }
-    .hero-1{
-        display: none;
-    }
+ /* banner-sec-styles */
+ .banner-img{
+    width: 336.58px;
+}
+.banner-title{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.banner-description{
+    font-size: 0.875rem;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.banner-btn-class{
+    display: flex;
+    justify-content: center;
+    
+}
+.banner-btn{
+    font-size: 1rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
     
 
         /* Curriculum-responsive */
@@ -642,7 +618,130 @@ body{
     .nav-name-2{
         display: none;
     }
-    .hero-2{
+    /* .hero-2{
         display: none;
-    }
+    } */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Banner-sec-styles
+.banner-text{
+    grid-area: banner-text;
+}
+.banner-img{
+    grid-area: banner-img;
+}
+.banner-sec{
+    display:grid;
+    grid-template-areas: 
+    "banner-text    banner-img"
+    ;
+    gap: 50px;
+    max-width: 1158.61px;
+    margin: 0 auto;
+}
+.banner-text{
+    width: 640px;
+    height: 331px;
+    padding: 112px 0;
+}
+.banner-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+#Empowering{
+    color: #FEA301;
+}
+#towards{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    color: #111111;
+    margin-bottom: 24px;
+
+}
+.banner-btn{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 47px;
+    background-color: #111111;
+    border: none;
+    border-radius: 12px;
+}
+.banner-img{
+    width: 468.61;
+    height: 575px;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     /* banner-styles */
+    /* .banner-sec{
+        display:grid;
+        grid-template-areas: 
+        "banner-img"
+        "banner-text"
+        ;
+        gap: 20px;
+        margin: 0px 0px;
+    }
+    .banner-img{
+        padding-top: 20px;
+        padding-left: 10.21px;
+        padding-right: 10.21px;
+    }
+    .banner-text{
+        text-align: center;
+        width: 357px;
+        height: 252px;
+        padding: 0;
+    }
+    .hero-1{
+        display: none;
+    } */
