@@ -479,7 +479,10 @@ body{
     margin-right: 10.15px;
 }
 
-
+.marquee{
+    font-size: 2.633rem;
+    font-weight: bold;
+}
 
 
 
@@ -596,10 +599,11 @@ body{
     }
     .story-btn{
         font-size: 1rem;
-        padding: 0 37px;
+    padding: 12px 24px;
         margin-left: 80px;
         margin-left: 0;
         margin-right: 0;
+    border-radius: 8px;
     }
 
     .footer{
@@ -640,6 +644,10 @@ body{
         margin-bottom: 36.96px;
         font-size: 1.4rem;
     }
+    .marquee{
+        font-size: 2rem;
+        color: #FFFFFF;
+    }
 }
 
 
@@ -648,9 +656,6 @@ body{
     .nav-name-2{
         display: none;
     }
-    /* .hero-2{
-        display: none;
-    } */
 }
 
 
