@@ -104,8 +104,24 @@ body{
 }
 
 /* Banner-sec-styles */
-
-/* banner-title-style */
+.banner-part-1{
+    grid-area: banner-part-1;
+}
+.banner-part-2{
+    grid-area: banner-part-2;
+}
+.banner-sec{
+    display: grid;
+    grid-template-areas: 
+    "banner-part-1   banner-part-2"
+    ;
+    gap: 50px;
+    max-width: 1158.61px;
+    margin: 0 auto;
+}
+.banner-part-1{
+    padding-top: 122px;
+}
 .banner-title{
     font-size: 3.5rem;
     font-weight: bold;
@@ -117,7 +133,7 @@ body{
 #blue-text{
     color: #01ACFD;
 }
-/* banner-description-style */
+
 .banner-description{
     font-size: 1.25rem;
     color: #111111;
@@ -480,8 +496,19 @@ body{
     
     
  /* banner-sec-styles */
+ .banner-sec{
+    grid-template-areas: 
+    "banner-part-2"
+    "banner-part-1"
+    ;
+    gap: 0;
+    margin-top: 8px;
+    margin-left: 16px;
+ }
  .banner-img{
     width: 336.58px;
+    padding-top: 20px;
+    padding-left: 10.21px;
 }
 .banner-title{
     font-size: 2rem;
@@ -502,6 +529,9 @@ body{
     font-size: 1rem;
     padding: 12px 24px;
     border-radius: 8px;
+}
+.banner-part-1{
+    padding-top: 20px;
 }
 
     
@@ -622,87 +652,6 @@ body{
         display: none;
     } */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Banner-sec-styles
-.banner-text{
-    grid-area: banner-text;
-}
-.banner-img{
-    grid-area: banner-img;
-}
-.banner-sec{
-    display:grid;
-    grid-template-areas: 
-    "banner-text    banner-img"
-    ;
-    gap: 50px;
-    max-width: 1158.61px;
-    margin: 0 auto;
-}
-.banner-text{
-    width: 640px;
-    height: 331px;
-    padding: 112px 0;
-}
-.banner-title{
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin-bottom: 24px;
-}
-#Empowering{
-    color: #FEA301;
-}
-#towards{
-    color: #01ACFD;
-}
-.banner-description{
-    font-size: 1.25rem;
-    color: #111111;
-    margin-bottom: 24px;
-
-}
-.banner-btn{
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #FFFFFF;
-    padding: 10px 47px;
-    background-color: #111111;
-    border: none;
-    border-radius: 12px;
-}
-.banner-img{
-    width: 468.61;
-    height: 575px;
-}
- */
-
 
 
 
